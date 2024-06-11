@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="dark-theme">
+    <div class="dashboard">
+        <div class="sidebar">
+            <div class="logo">
+                <h2>Dashboard</h2>
+            </div>
+            <ul class="menu">
+                <li class="menu-item active">Home</li>
+                <li class="menu-item" id="projectsButton">Projects</li>
+                <li class="menu-item" id="statsButton">Stats</li>
+                <li class="menu-item" id="aboutButton">About</li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="header">
+                <div class="welcome">
+                    <h1>G Sai Madhav</h1>
+                    <p></p>
+                </div>
+                <div class="profile">
+                    <span>Branch: Ai&Ds</span>
+                    <span>3rd year</span>
+                </div>
+            </div>
+            <div class="content">
+                <div class="left-column">
+                    <div class="my-courses">
+                        <h2>My Courses</h2>
+                        <div class="course-cards">
+                            <div class="course-card">
+                                <div class="course-info">
+                                    <h2>Data Visualization</h2>
+                                    <p>Lecturer:Sailaja Madam</p>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 70%;"></div>
+                                    </div>
+                                    <p>Level: Intermediate</p>
+                                    <p>Progress: 70%</p>
+                                </div>
+                            </div>
+                            <div class="course-card">
+                                <div class="course-info">
+                                    <h2>Deep Learning</h2>
+                                    <p>Lecturer:Ummer Chopan Sir</p>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 75%;"></div>
+                                    </div>
+                                    <p>Level: Mediacore</p>
+                                    <p>Progress: 75%</p>
+                                </div>
+                            </div>
+                            <div class="course-card">
+                                <div class="course-info">
+                                    <h2>Natural Language Processing</h2>
+                                    <p>Lecturer: Rohit Jain Sir</p>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 65%;"></div>
+                                    </div>
+                                    <p>Level: Beginner</p>
+                                    <p>Progress: 65%</p>
+                                </div>
+                            </div>
+                            <div class="course-card">
+                                <div class="course-info">
+                                    <h2>Scripting Language</h2>
+                                    <p>Lecturer:Mahesh Sir</p>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 90%;"></div>
+                                    </div>
+                                    <p>Level: Advanced</p>
+                                    <p>Progress: 90%</p>
+                                </div>
+                            </div>
+                            <div class="course-card">
+                                <div class="course-info">
+                                    <h2>DPPM</h2>
+                                    <p>Lecturer:Latha Sri Madam</p>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 50%;"></div>
+                                    </div>
+                                    <p>Level: Basic</p>
+                                    <p>Progress: 50%</p>
+                                </div>
+                            </div>
+                            <div class="course-card">
+                                <div class="course-info">
+                                    <h2>Environmental Science</h2>
+                                    <p>Lecturer: Harika Madam</p>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 75%;"></div>
+                                    </div>
+                                    <p>Level: Intermediate</p>
+                                    <p>Progress: 75%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="achievements">
+                        <h2>Remainders</h2>
+                        <div class="achievement-card">
+                            <h3>DV Dashboard Submission!!</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-column">
+                    <div class="schedule">
+                        <h2>My Schedule</h2>
+                        <div class="calendar">
+                            <p>June</p>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>S</th>
+                                        <th>M</th>
+                                        <th>T</th>
+                                        <th>W</th>
+                                        <th>T</th>
+                                        <th>F</th>
+                                        <th>S</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>6</td>
+                                        <td>7</td>
+                                        <td>8</td>
+                                        <td>9</td>
+                                        <td class="menu-item active">10</td>
+                                        <td>11</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>13</td>
+                                        <td>14</td>
+                                        <td>15</td>
+                                        <td>16</td>
+                                        <td>17</td>
+                                        <td>18</td>
+                                    </tr>
+                                    <tr>
+                                        <td>19</td>
+                                        <td>20</td>
+                                        <td>21</td>
+                                        <td>22</td>
+                                        <td>23</td>
+                                        <td>24</td>
+                                        <td>25</td>
+                                    </tr>
+                                    <tr>
+                                        <td>26</td>
+                                        <td>27</td>
+                                        <td>28</td>
+                                        <td>29</td>
+                                        <td>30</td>
+                                        <td>31</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tasks">
+                        <h2>Upcoming Tasks</h2>
+                        <div class="task-card">
+                            <p>Record Submission</p>
+                            <p>Assignments</p>
+                        </div>
+                        <div class="task-card">
+                            <p>Internals</p>
+                            <p>Mid-term exams</p>
+                        </div>
+                        <div class="task-card">
+                            <p>Externals</p>
+                            <p>Semister-exams</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('projectsButton').addEventListener('click', function() {
+            window.location.href = 'index2.html';
+        });
+        document.getElementById('statsButton').addEventListener('click', function() {
+    window.location.href = 'stats.html';
+    });
+    document.getElementById('aboutButton').addEventListener('click', function() {
+    window.location.href = 'about.htm';
+});
+
+
+    </script>
+</body>
+
+</html>
